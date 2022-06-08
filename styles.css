@@ -1,0 +1,168 @@
+* { box-sizing: border-box; margin-top: 0; margin-left: .01em;}
+header, nav, main, footer { display: block; }
+main {
+  min-height: 550px;
+}
+body {
+  background-color: #fafafa;
+  color: #221811;
+  font-family: Verdana, Arial, sans-serif;
+}
+#wrapper {
+  width: 100%;
+  margin-right: auto;
+  margin-left: auto;
+  background-color: #0e0f0f;
+  min-width: 900px;
+  box-shadow: 3px 3px 3px #666666;
+}
+header {
+  background-color: #0e0f0f;
+  height: 100px;
+  background-image: url(images/background.jpeg);
+  background-repeat: repeat;
+}
+h1 {
+  padding-top: 20px;
+  padding-left: 150px;
+  font-size: 3em;
+  color: #ffffff;
+  text-shadow: 3px 3px #FF0066;
+}
+h2 {
+  padding-top: 15px;
+}
+/* Navigation bar styles */
+nav {
+  text-align: center;
+  font-weight: bold;
+  padding-top: 10px;
+  float: left;
+  width: 220px;
+}
+nav p {
+  color: #FF0066;
+}
+nav a {
+  text-decoration: none;
+  color: #ffffff;
+  text-shadow: 1px 1px #FF0066;
+}
+nav a:link {
+  color: #ffffff;
+  text-shadow: 1px 1px #FF0066;
+}
+nav a:visited {
+  color: #84dbf5;
+  text-shadow: 1px 1px #FF0066;
+}
+nav a:hover {
+  color: #57cef2;
+  text-shadow: 1px 1px #FF0066;
+}
+nav ul {
+  list-style-type: none;
+  padding-left: 0;
+  border-bottom: 2px solid #84dbf5;
+}
+nav li {
+  min-height: 2em;
+
+  margin-top: .5em;
+}
+/* Main section styles */
+main {
+  padding: 0 0 2em 0;
+  margin-left: 220px;
+  background-color: #ced7e0;
+  display: block;
+}
+#main-content {
+  padding: 2em;
+  overflow: auto;
+}
+#herogame {
+  background-image: url(images/gaming-den.png);
+  background-size: 100% 100%;
+  height: 250px;
+  margin-left: 0;
+}
+ul {
+  list-style-type: square;
+}
+fieldset {
+  background-color: #e3f1ff;
+  margin: 20px 20px 20px 0;
+  padding: 20px 20px 20px;
+  border: 1px solid #666;
+  border-radius: 8px;
+  min-width: 50%;
+  width: fit-content;
+}
+legend {
+  font-weight: bold;
+}
+input[type=submit] {
+  border-radius: 8px;
+  padding:5px 10px;
+}
+input.invisible {
+  visibility: hidden;
+}
+input.button-link {
+  background: none!important;
+  border: none;
+  padding: 0!important;
+  color: #069;
+  text-decoration: underline;
+  cursor: pointer;
+  font-size: 1.1em;
+  border-radius: 0;
+}
+table.list {
+  background-color: #e3f1ff;
+  border: 1px solid black;
+  border-collapse: collapse;
+}
+table.list tr {
+  border: 1px solid black;
+}
+table.list td, table.list th {
+  padding: 10px;
+  vertical-align: top;
+  border: 1px solid black;
+}
+table.list th {
+  background-color: #57a9fa;
+}
+.instructions {
+  font-size: .80em;
+  color: #006ad1;
+}
+.error {
+  color: red;
+  font-weight: bold;
+  font-size: 1.2em;
+}
+.success {
+  color: green;
+  font-weight: bold;
+  font-size: 1.2em;
+}
+/* Footer section styles */
+footer {
+  background-color: #0e0f0f;
+  color: #ffffff;
+  font-size: .60em;
+  font-style: italic;
+  text-align: center;
+  background-image: url(images/background.jpeg);
+}
+footer a, footer a:link, footer a:visited, footer a:hover {
+  color: #ffffff;
+}
+.disclaimer {
+  font-size: .8em;
+  font-weight: bold;
+  font-style: normal;
+}
